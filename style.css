@@ -1,9 +1,9 @@
-
-
+/* slider part */
 .slider {
     margin-bottom: 80px;
 }
 
+/* navigation bar styles */
 .navbar-brand {
     color: #3E3E3E;
     font-family: 'Poppins', sans-serif;
@@ -20,6 +20,7 @@
     line-height: 24px;
 }
 
+/* carousel styles */
 .carousel-caption h5 {
     font-weight: 600;
     font-size: 48px;
@@ -41,8 +42,7 @@
     visibility: hidden;
 }
 
-
-
+/* moments part styles */
 .moments {
     margin-bottom: 100px;
 }
@@ -71,6 +71,31 @@
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
 }
+
+/* package styles start form here */
+
+/* tosat styles */
+.toast {
+    background-color: #FFFFFF;
+    border-left: 5px solid blue;
+}
+
+.toast-container {
+    margin-top: 120px;
+}
+
+.toast-body {
+    padding-left: 70px;
+    font-size: 15px;
+}
+
+.toast .fa-gift {
+    color: rgba(0, 124, 255, 0.63);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* tosat styles */
 
 .our-package {
     margin-bottom: 50px;
@@ -157,26 +182,9 @@
     left: 215px;
 }
 
-.toast {
-    background-color: #FFFFFF;
-    border-left: 5px solid blue;
-}
+/* package styles start form here */
 
-.toast-container {
-    margin-top: 120px;
-}
-
-.toast-body {
-    padding-left: 70px;
-    font-size: 15px;
-}
-
-.toast .fa-gift {
-    color: rgba(0, 124, 255, 0.63);
-    font-size: 20px;
-    margin-right: 10px;
-}
-
+/* happy part start from here */
 .happy {
     margin-bottom: 50px;
 }
@@ -214,6 +222,7 @@
     color: #747474;
 }
 
+/* question part start from here */
 .question {
     margin-bottom: 50px;
 }
@@ -226,6 +235,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* footer part start form here */
 .footer {
     background-color: #0B0D17;
     height: 280px;
@@ -239,6 +249,7 @@
     margin-top: 10%;
 }
 
+/* media query for mobile device  */
 @media only screen and (max-width:576px) {
     .carousel-item img {
         height: 80vh;
@@ -308,7 +319,8 @@
     .footer .google {
         margin-top: 25%;
     }
-    .navbar-toggler:focus{
+
+    .navbar-toggler:focus {
         box-shadow: none;
     }
 }
